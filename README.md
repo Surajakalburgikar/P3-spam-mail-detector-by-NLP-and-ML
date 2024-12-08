@@ -1,8 +1,8 @@
 # P3-spam-mail-detector-by-NLP-and-ML
 <h2>Table of Contents</h2>
-Project Overview
-Usage
-How It Works
+<h5>Project Overview</h5>
+<h5>Usage</h5>
+<h5>How It Works</h5>
 
 <h2>Project Overview</h2>
 <p>The Email Spam Classification application leverages machine learning to classify whether a given email is spam or not. The model is trained on a dataset and uses the Naive Bayes algorithm for classification. The app is built using Streamlit, which provides an easy-to-use interface for the user to input email content and get predictions.</p>
