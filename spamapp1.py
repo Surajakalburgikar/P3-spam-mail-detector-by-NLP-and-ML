@@ -2,10 +2,8 @@ import streamlit as st
 import pickle
 import os
 
-# Get the current directory (where this file lives)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Load the vectorizer and model using relative paths
 with open(os.path.join(BASE_DIR, "vec123.pkl"), "rb") as f:
     cv = pickle.load(f)
 
@@ -36,5 +34,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
